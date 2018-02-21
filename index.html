@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Origin</title>
+</head>
+<body>
+
+<div class="ui overflow visible inverted left wide vertical sidebar menu" id="sidebar">
+  <img class="ui centered image" id="logo" src="logo.png">
+
+  <div class="ui search" id="search">
+    <div class="ui icon input">
+      <i class="search icon"></i>
+      <input class="prompt" placeholder="Search games and more" type="text">
+    </div>
+  </div>
+
+  <div class="ui borderless container" id="store">Store</div>
+  <div class="ui borderless container">
+    <div class="ui dropdown item" id="submenu">
+      <div class="text">Browse Games</div>
+      <i class="chevron right icon"></i>
+      <div class="menu">
+        <div class="item">something 1</div>
+        <div class="item">something 2</div>
+      </div>
+    </div>
+    <div class="ui dropdown item" id="submenu">
+      <div class="text">Deals</div>
+      <i class="chevron right icon"></i>
+      <div class="menu">
+        <div class="item">something 1</div>
+        <div class="item">something 2</div>
+      </div>
+    </div>
+    <div class="ui dropdown item" id="submenu">
+      <div class="text">Free Games</div>
+      <i class="chevron right icon"></i>
+      <div class="menu">
+        <div class="item">something 1</div>
+        <div class="item">something 2</div>
+      </div>
+    </div>
+    <div class="ui dropdown item" id="submenu">
+      <div class="text">Origin Access</div>
+      <i class="chevron right icon"></i>
+      <div class="menu">
+        <div class="item">something 1</div>
+        <div class="item">something 2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui divider"></div>
+
+  <div class="ui container" id="columns">About   •   Download   •   Help</div>
+
+  <div class="ui floated centered container" id="sidebutton">
+    <div class="ui large orange button">Sign In</div>
+    <div class="ui large gray button">Register</div>
+  </div>
+
+  <div class="ui divider"></div>
+
+</div>
+
+<img class="ui centered image" id="ad" src="adcrop.jpg">
+<img class="ui centered image" id="sale" src="sale.png">
+<div class="ui container" id="savings">Save up to 70%</div>
+
+<div class="ui centered grid container" id="center">
+  <div class="ui large orange button">Save now</div>
+  <div class="ui large gray button">Continue to Origin</div>
+</div>
+
+<div class="ui three column grid container">
+  <div class="column">
+    <div class="ui list">
+      <div class="item">About Great Game Guarantee</div>
+      <div class="item">Great Game Guarantee Terms</div>
+      <div class="item">Legal</div>
+      <div class="item">Contact Us</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui list">
+      <div class="item">Terms of Sale</div>
+      <div class="item">User Agreement</div>
+      <div class="item">Corporate Information</div>
+      <div class="item">Privacy and Cookie Policy (Your Privacy Rights)</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui list">
+      <div class="ui selection dropdown">
+        <input name="language" type="active">
+        <i class="dropdown icon"></i>
+        <div class="default text">English</div>
+        <div class="menu">
+          <div class="item" dtaa-value="1">English</div>
+          <div class="item" dtaa-value="0">French</div>
+        </div>
+      </div>
+      <div class="item">© 2018 Electronic Arts Inc.</div>
+      <div class="item">Origin v10.4.49.687270</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.ui.dropdown')
+      .dropdown();
+</script>
+
+</body>
+</html>

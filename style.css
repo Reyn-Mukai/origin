@@ -1,0 +1,52 @@
+#sidebar{
+  background-color: #1E262C;
+}
+#logo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#store{
+  background-color: #4B5259;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+#submenu{
+  padding-left: 50px;
+  font-size: 16px;
+}
+#search{
+  height: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+#ad{
+  padding-left: 300px;
+}
+#sale{
+  padding-left: 300px;
+  width: 750px;
+}
+#savings{
+  padding-top: 30px;
+  padding-left: 600px;
+  font-size: 36px;
+}
+#columns{
+  color: white;
+  font-size: 14;
+  padding-left: 20px;
+}
+#sidebutton{
+  width: 300px;
+  padding-top: 375px;
+}
+#padding{
+  padding-bottom: 50px;
+}
+#center{
+  padding-left: 300px;
+  padding-top: 50px;
+}
